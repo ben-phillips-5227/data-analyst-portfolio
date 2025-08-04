@@ -2,7 +2,7 @@
 
 This project explores survival prediction on the Titanic dataset using a Random Forest Classifier.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/notebooks/RandomForest.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/projects/Titanic_RandomForest/notebooks/RandomForest.ipynb)
 
 ## Objectives
 - Explore and clean the Titanic dataset
