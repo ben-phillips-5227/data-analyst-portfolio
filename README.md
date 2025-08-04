@@ -10,9 +10,10 @@ I’m an aspiring data analyst with hands-on experience in Python, SQL, Tableau,
   *Random Forest, Pandas, Scikit-learn, Seaborn*
   
 - **Airline Delays Analysis**  
-  *KMeans, Hierarchical Clustering, Scikit-learn, Matplotlib*  
+  *KMeans, Hierarchical Clustering, Scikit-learn, Matplotlib*
 
-
+- **Investigative Health Research**
+  *Exploratory Data Analysis, Decision Tree, Random Forest, Data Transformation*
 
 ## Resume
 You can find my resume [here](./resume.pdf).
@@ -20,4 +21,3 @@ You can find my resume [here](./resume.pdf).
 ## Links
 - [GitHub](https://github.com/ben-phillips-5227)
 - [LinkedIn](https://www.linkedin.com/in/benphillips5227/)
-- [Tableau Public](https://public.tableau.com/app/profile/yourprofile)
