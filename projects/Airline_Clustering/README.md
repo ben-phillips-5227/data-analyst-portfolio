@@ -2,6 +2,8 @@
 
 This project explores U.S. airline delay data using KMeans clustering to identify meaningful patterns in flight delays.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/projects/Airline_Clustering/notebooks/Clustering.ipynb)
+
 ## Files
 
 - `data/AirlineDelays.csv`  
