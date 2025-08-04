@@ -13,6 +13,7 @@ I’m an aspiring data analyst with hands-on experience in Python, SQL, Tableau,
   *KMeans, Hierarchical Clustering, Scikit-learn, Matplotlib*
 
 - **Investigative Health Research**
+  
   *Exploratory Data Analysis, Decision Tree, Random Forest, Data Transformation*
 
 ## Resume
