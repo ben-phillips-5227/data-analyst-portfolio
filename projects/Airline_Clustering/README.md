@@ -1,27 +1,30 @@
 # Airline Delay Clustering Analysis
 
-This project explores U.S. airline delay data using KMeans clustering to identify meaningful patterns in flight delays.
+This project explores uses unspurvised machine learning applying K-Means clustering to U.S. airline delay data in order to identify meaningful patterns in flight delays.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/projects/Airline_Clustering/notebooks/Clustering.ipynb)
 
-## Files
+## Project Overview
 
-- `data/AirlineDelays.csv`  
-  Raw dataset of airline delays (airports, carriers, time of day, etc.)
+The goal of this project is to gorup flights with meaningful clusters together based on delay behavior, distance, time-of-day patterns, and other variables. With these natural grouping, airline operations teams can target specific types of flights for performance improvements.
 
-- `notebooks/Clustering.ipynb`  
-  KMeans clustering applied to preprocessed delay data
+## Data
 
-- `visualizations/`  
-  Charts and elbow plots (optional)
+- **File:** `data/AirlineDelays.csv`  
+- **Rows:** 9697
+- **Columns:** 18
+- 
+
+## Goals
 
 ## Methods Used
-
-- Data cleaning with `pandas`
-- Feature scaling with `StandardScaler`
-- KMeans clustering using `scikit-learn`
-- Elbow method and inertia scores to find optimal `k`
-- Cluster labeling and visualization with `seaborn` and `matplotlib`
+1. **Preproccesing**
+    - Select numeric features
+    - Handle missing values, there were 0
+    - Standardize features in order to center columns at 0
+2. **Clustering**
+    - Used K-Means (fixed random state)
+    - 
 
 ## How to Run
 
