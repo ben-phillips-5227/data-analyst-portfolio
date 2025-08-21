@@ -29,9 +29,9 @@ This project explores uses unspurvised machine learning applying K-Means cluster
 - **k=4** balances high CH and low DBI; see `artifacts/quality_metrics.png` & `artifacts/elbow.png`.  
 - Example narratives (tune to your data):
   - **C0 — Long-haul punctual:** high `Distance`, low `ArrDelay/DepDelay`  
-  - **C1 — Delay-heavy, short/mid-range:** high 'ArrDelay' and 'DepDelay', slightly below average 'Distance'
-  - **C2 — PM Flights to smaller airports/off-peak times:** highest `DepTime/CRSDepTime`, lowest 'TaxiIn/TaxiOut'
-  - **C3 — Short AM flights, on-time:** low 'DepTime/CRSDepTime', lowest `ArrDelay/DepDelay`
+  - **C1 — Delay-heavy, short/mid-range:** high `ArrDelay` and `DepDelay`, slightly below average `Distance`
+  - **C2 — PM Flights to smaller airports/off-peak times:** highest `DepTime/CRSDepTime`, lowest `TaxiIn/TaxiOut`
+  - **C3 — Short AM flights, on-time:** low `DepTime/CRSDepTime`, lowest `ArrDelay/DepDelay`
 
 ## Artifacts
 - [artifacts/assignments.csv](./artifacts/assignments.csv) — dataset rows used + `cluster` label  
