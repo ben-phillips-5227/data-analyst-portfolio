@@ -5,17 +5,16 @@ This project explores uses unspurvised machine learning applying K-Means cluster
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/projects/Airline_Clustering/notebooks/Clustering.ipynb)
 
 ## Project Overview
-
-The goal of this project is to gorup flights with meaningful clusters together based on delay behavior, distance, time-of-day patterns, and other variables. With these natural grouping, airline operations teams can target specific types of flights for performance improvements.
+- Cleans the data and **standardizes features** for distance-based clustering  
+- Compares **k = 2…10** using **Calinski–Harabasz (CH)** and **Davies–Bouldin (DBI)**  
+- Fits **K-Means** with multiple initializations and a fixed random seed  
+- Profiles clusters and exports **assignments, centroids, and figures**  
 
 ## Data
 
 - **File:** `data/AirlineDelays.csv`  
 - **Rows:** 9697
 - **Columns:** 18
-- 
-
-## Goals
 
 ## Methods Used
 1. **Preproccesing**
