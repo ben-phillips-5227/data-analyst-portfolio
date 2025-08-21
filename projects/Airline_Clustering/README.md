@@ -26,10 +26,14 @@ The goal of this project is to gorup flights with meaningful clusters together b
     - Used K-Means (fixed random state)
     - 
 
-## How to Run
+## Artifacts: 
+- [artifacts/assignments.csv](./artifacts/assignments.csv) — dataset rows used + `cluster` label  
+- [artifacts/cluster_profile.csv](./artifacts/cluster_profile.csv) — per-cluster mean/median/std/count (original units)  
+- [artifacts/cluster_centroids_standardized.csv](./artifacts/cluster_centroids_standardized.csv) — centroids in z-scores  
+- [artifacts/cluster_centroids_original_units.csv](./artifacts/cluster_centroids_original_units.csv) — centroids back-transformed  
+- [artifacts/quality_metrics.png](./artifacts/quality_metrics.png) · [artifacts/elbow.png](./artifacts/elbow.png) · [artifacts/pca_scatter.png](./artifacts/pca_scatter.png)
 
-### If running locally:
-
-```python
-import pandas as pd
-df = pd.read_csv("../data/AirlineDelays.csv")
+## How to Run: Google Colab
+- Click the badge at the top
+- In Google Colab, click Runtime in the ribbon, then restart and run all
+- I have the artifacts in their own folder, but if you would like to download them yourself, they will be downloadable after running the final cell!
