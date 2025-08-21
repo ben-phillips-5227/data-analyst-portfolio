@@ -6,7 +6,7 @@ This project explores uses unspurvised machine learning applying K-Means cluster
 
 ## Project Overview
 - Cleans the data and standardizes features for distance-based clustering  
-- Compares k = 2-10 using *Calinski–Harabasz (CH) and Davies–Bouldin (DBI)  
+- Compares k = 2-10 using Calinski–Harabasz (CH) and Davies–Bouldin (DBI)  
 - Fits K-Means with multiple initializations and a fixed random seed  
 - Profiles clusters and exports assignments, centroids, and figures
 
