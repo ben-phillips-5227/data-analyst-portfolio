@@ -26,7 +26,15 @@ The goal of this project is to gorup flights with meaningful clusters together b
     - Used K-Means (fixed random state)
     - 
 
-## Artifacts: 
+## Results
+- **k=4** balances high CH and low DBI; see `artifacts/quality_metrics.png` & `artifacts/elbow.png`.  
+- Example narratives (tune to your data):
+  - **C0 — Long-haul punctual:** high `Distance`, low `ArrDelay/DepDelay`  
+  - **C1 — Short-haul late departures:** low `Distance`, `DepDelay` >> `ArrDelay`  
+  - **C2 — Moderate delays:** mid `CRSDepTime`, modest delays  
+  - **C3 — Late-night arrivals:** extreme `CRSDepTime`, elevated `ArrDelay`
+
+## Artifacts
 - [artifacts/assignments.csv](./artifacts/assignments.csv) — dataset rows used + `cluster` label  
 - [artifacts/cluster_profile.csv](./artifacts/cluster_profile.csv) — per-cluster mean/median/std/count (original units)  
 - [artifacts/cluster_centroids_standardized.csv](./artifacts/cluster_centroids_standardized.csv) — centroids in z-scores  
