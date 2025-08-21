@@ -5,10 +5,10 @@ This project explores uses unspurvised machine learning applying K-Means cluster
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/projects/Airline_Clustering/notebooks/Clustering.ipynb)
 
 ## Project Overview
-- Cleans the data and **standardizes features** for distance-based clustering  
-- Compares **k = 2…10** using **Calinski–Harabasz (CH)** and **Davies–Bouldin (DBI)**  
-- Fits **K-Means** with multiple initializations and a fixed random seed  
-- Profiles clusters and exports **assignments, centroids, and figures**  
+- Cleans the data and standardizes features for distance-based clustering  
+- Compares k = 2…10 using *Calinski–Harabasz (CH) and Davies–Bouldin (DBI)  
+- Fits K-Means with multiple initializations and a fixed random seed  
+- Profiles clusters and exports assignments, centroids, and figures
 
 ## Data
 
