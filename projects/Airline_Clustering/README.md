@@ -6,7 +6,7 @@ This project explores uses unspurvised machine learning applying K-Means cluster
 
 ## Project Overview
 - Cleans the data and standardizes features for distance-based clustering  
-- Compares k = 2…10 using *Calinski–Harabasz (CH) and Davies–Bouldin (DBI)  
+- Compares k = 2-10 using *Calinski–Harabasz (CH) and Davies–Bouldin (DBI)  
 - Fits K-Means with multiple initializations and a fixed random seed  
 - Profiles clusters and exports assignments, centroids, and figures
 
@@ -17,13 +17,13 @@ This project explores uses unspurvised machine learning applying K-Means cluster
 - **Columns:** 18
 
 ## Methods Used
-1. **Preproccesing**
-    - Select numeric features
-    - Handle missing values, there were 0
-    - Standardize features in order to center columns at 0
-2. **Clustering**
-    - Used K-Means (fixed random state)
-    - 
+1. **Preprocessing** – select features, drop rows with NAs in those features, scale with `StandardScaler` (mean=0, std=1).  
+2. **Model selection** – evaluate k=2-10 with:
+   - **CH (↑)**: higher = tighter/clearer clusters  
+   - **DBI (↓)**: lower = better separation  
+   **Chosen k:** **4** (best balance + interpretable segments)
+3. **Clustering** – `KMeans(n_clusters=4, n_init=30, random_state=42)`  
+4. **Interpretation** – per-cluster means/medians/std (original units) and a PCA scatter for a 2-D visual check.
 
 ## Results
 - **k=4** balances high CH and low DBI; see `artifacts/quality_metrics.png` & `artifacts/elbow.png`.  
