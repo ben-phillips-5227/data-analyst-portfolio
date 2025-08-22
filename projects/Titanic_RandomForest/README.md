@@ -71,25 +71,3 @@ Created in `projects/Titanic_RF/artifacts_rf/`:
 ![ROC Curve](artifacts_rf/roc_curve.png)
 ![Precision–Recall Curve](artifacts_rf/pr_curve.png)
 ![Feature Importances](artifacts_rf/feature_importances.png)
-
----
-
-## Quickstart (local)
-
-```bash
-# from repo root
-cd projects/Titanic_RF
-
-# (optional) create/activate a virtual env
-python -m venv .venv
-# Windows (PowerShell):
-.\.venv\Scripts\Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
-
-# install deps
-pip install -U pandas numpy scikit-learn matplotlib joblib jupyter
-
-# launch the notebook
-jupyter notebook RandomForest_with_pipeline.ipynb
-
