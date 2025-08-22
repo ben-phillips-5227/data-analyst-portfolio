@@ -31,9 +31,9 @@ Expected columns in `titanic.csv` (same folder as the notebook):
    - `SimpleImputer(strategy="median")` for `Age`, `Fare`
    - `OneHotEncoder(drop="first", handle_unknown="ignore")` for `Gender`, `Class`
    - `RandomForestClassifier` (fixed `random_state`)
-3. **(Optional) Tuning** with `RandomizedSearchCV` (5-fold, scoring=ROC-AUC)
+3. **Tuning** with `RandomizedSearchCV` (5-fold, scoring=ROC-AUC)
 4. **Evaluation**: `classification_report`, ROC-AUC; plots for Confusion Matrix, ROC, and Precision-Recall
-5. **(Optional) Threshold tuning** to pick an F1-optimal cutoff
+5. **Threshold tuning** to pick an F1-optimal cutoff
 6. **Artifacts** written to `artifacts_rf/`
 
 ## Results (example run)
