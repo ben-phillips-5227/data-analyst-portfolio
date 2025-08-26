@@ -32,6 +32,9 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 | `% Physically Inactive`    | Ranked Measure Data     | Adults with no leisure-time physical activity (percent) |
 | `Premature death` / `YPLL` | Ranked Measure Data     | Years of Potential Life Lost rate (if included)         |
 
+## Results
+- 
+
 ## License & attribution
 - County Health Rankings © University of Wisconsin Population Health Institute.
 - RUCC 2023 codes © USDA Economic Research Service.
