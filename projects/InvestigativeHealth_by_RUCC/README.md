@@ -1,6 +1,6 @@
 #  Investigative Health Analysis by RUCC
 
-This project explores health-related datasets with a focus on Rural-Urban Continuum Codes (RUCC) classification. The analysis investigates patterns in healthcare access, health outcomes, and other demographic indicators by urbanicity level.
+This project explores health-related datasets with a focus on Rural-Urban Continuum Codes (RUCC) classification. The analysis investigates patterns in healthcare access, health outcomes, and other demographic indicators by urbanicity level. The goal of this project wasn't to confirm or deny a hypothesis, but to gain insight on the distribution of health issues in the United States.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ben-phillips-5227/data-analyst-portfolio/blob/main/projects/InvestigativeHealth_by_RUCC/notebooks/InvestigativeHealthRUCC.ipynb)
 
@@ -13,10 +13,10 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 
 - **USDA Rural–Urban Continuum Codes (2023)**  
   File in repo: `Ruralurbancontinuumcodes2023.xlsx`  
-  Field used: `RUCC_2023` (categorical code 1–9),
-  1 is the most urban, 9 is the most rural
+  Field used: `RUCC_2023` (categorical code 1–9)
 
 ## Methods Used
+- Data sources were merged on the FIPS (Federal Information Processing Standards) codes
 - Data cleaning and preprocessing with **pandas**
 - Exploratory data analysis (EDA) with **matplotlib** and **seaborn**
 - Grouping and aggregation by RUCC classification
@@ -33,10 +33,7 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 | `% Physically Inactive`    | Ranked Measure Data     | Adults with no leisure-time physical activity (percent) |
 | `Premature death` / `YPLL` | Ranked Measure Data     | Years of Potential Life Lost rate (if included)         |
 
-
-## How to Run
-
-### If running locally:
-```python
-import pandas as pd
-df = pd.read_csv("../data/your_dataset.csv")
+## License & attribution
+- County Health Rankings © University of Wisconsin Population Health Institute.
+- RUCC 2023 codes © USDA Economic Research Service.
+- This notebook is for analysis/education; verify licensing before redistribution of raw files.
