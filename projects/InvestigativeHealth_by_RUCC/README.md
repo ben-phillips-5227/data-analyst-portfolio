@@ -13,7 +13,7 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 
 - **USDA Rural–Urban Continuum Codes (2023)**  
   File in repo: `Ruralurbancontinuumcodes2023.xlsx`  
-  Field used: `RUCC_2023` (categorical code 1–9)
+  Field used: `RUCC_2023` (categorical code 1–9),
   1 is the most urban, 9 is the most rural
 
 ## Methods Used
