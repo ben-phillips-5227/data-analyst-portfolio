@@ -37,3 +37,7 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 - County Health Rankings © University of Wisconsin Population Health Institute.
 - RUCC 2023 codes © USDA Economic Research Service.
 - This notebook is for analysis/education; verify licensing before redistribution of raw files.
+
+## How to Run: Google Colab
+- Click the badge at the top
+- In Google Colab, click Runtime in the ribbon, then restart and run all
