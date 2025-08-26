@@ -23,7 +23,6 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 - Statistical summaries and visualizations
 
 ## Key Fields
-
 | Column                     | Source Sheet            | Meaning                                                 |
 | -------------------------- | ----------------------- | ------------------------------------------------------- |
 | `FIPS`                     | All                     | County FIPS code (join key)                             |
