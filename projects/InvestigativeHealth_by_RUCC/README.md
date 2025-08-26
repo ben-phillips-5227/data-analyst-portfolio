@@ -35,11 +35,23 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 ## Results
 - Created three aggregate variables for analysis:
 
-      - **Health Disadvantage Index (HDI):** 
-          - % Adults with Obesity
-          - % Fair or Poor Health
-          - % Adults with Diabetes
-          - Log of Years of Potential Life Lost Rate
+      - **Health Disadvantage Index (HDI):**
+        - % Adults with Obesity
+        - % Fair or Poor Health
+        - % Adults with Diabetes
+        - Log of Years of Potential Life Lost Rate
+      - Lifestyle Risk Index (LRI):
+        - % Adults with Obesity
+        - % Physically Inactive
+        - % Adults Reporting Currently Smoking
+        - % Excessive Drinking
+      - Access Support Index (ASI): 
+        - Primary Care Physician Rate
+        - % With Access to Exercise Opportunities
+        - Food Environment Index
+        - Mental Health Provider Rate
+
+   
 
 
 ## Visualizations
