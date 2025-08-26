@@ -33,8 +33,7 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 | `Premature death` / `YPLL` | Ranked Measure Data     | Years of Potential Life Lost rate (if included)         |
 
 ## Results
-- Created three aggregate variables for analysis:
-
+Created three aggregate variables for analysis:
       - **Health Disadvantage Index (HDI):**
         - % Adults with Obesity
         - % Fair or Poor Health
