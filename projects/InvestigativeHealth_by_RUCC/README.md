@@ -32,7 +32,7 @@ This project explores health-related datasets with a focus on Rural-Urban Contin
 | `% Physically Inactive`    | Ranked Measure Data     | Adults with no leisure-time physical activity (percent) |
 | `Premature death` / `YPLL` | Ranked Measure Data     | Years of Potential Life Lost rate (if included)         |
 
-## Results
+## Aggregate Variables
 Created three aggregate variables for analysis:
 
       - Health Disadvantage Index (HDI):
@@ -50,7 +50,6 @@ Created three aggregate variables for analysis:
         - % With Access to Exercise Opportunities
         - Food Environment Index
         - Mental Health Provider Rate
-I found that for both the HDI and LRI, the values were higher (worse) in the more rural counties, but for the ASI, it has highest (best) in the counties with an RUCC of 5, and the second highest were the counties with an RUCC of 7. 
 
 ## Summary of Findings (from the 4 artifacts)
 
@@ -74,23 +73,20 @@ _File:_ `artifacts/bar_access_support_by_rucc.png`
 **Access & support** (provider availability, exercise facility access, food environment) is **lowest in rural codes** and improves toward metro codes.  
 **Takeaway:** **Access constraints** are a consistent differentiator—closing gaps in providers and healthy-environment supports is likely to yield the biggest improvements.
 
----
 
-### Overall Interpretation
-- **Consistent rural disadvantage** appears across HDI, lifestyle risk, and access/support, but with **notable within-group variation**, especially among rural counties.  
-- The **decision tree** emphasizes **modifiable levers** (access/support + behavior) more than place alone; i.e., **where** a county is matters, but **what resources and behaviors** it has matters more for classification.  
-- **Policy & program implication:** Pair **access investments** (providers, facilities, food environment) with **behavioral interventions** (inactivity/smoking/obesity prevention). Target rural counties first, but use county-level data to prioritize specific communities given the wide spread.
+## Overall Interpretation
+- Consistent rural disadvantage appears across HDI, lifestyle risk, and access/support, but with notable within-group variation, especially among rural counties.  
+- The decision tree emphasizes changeable factors (access/support + behavior) more than place alone; i.e., where a county is matters, but what resources and behaviors it has matters more for classification.  
+- Policy & program implication: Pair access investments (providers, facilities, food environment) with behavioral interventions (inactivity/smoking/obesity prevention). Target rural counties first, but use county-level data to prioritize specific communities given the wide spread.
 
-### Caveats
+## Caveats
 - The indices are composite summaries; individual measures may move in different directions locally.  
-- Findings are **cross-sectional**; causal claims require longitudinal or quasi-experimental designs.  
+- Findings are cross-sectional; causal claims require longitudinal or quasi-experimental designs.  
 - RUCC captures broad urbanicity; adding geography (state/region) could explain part of the variability.
 
-### Next Steps
-- Map the indices to visualize **spatial clusters** and identify outliers (rural counties performing well).  
-- Segment by **state/region** to separate rurality effects from regional policy/context.  
-- Stress-test the tree with **out-of-time validation** (another year) and add **calibration** and **feature permutation** checks for robustness.
-
+## Next Steps
+- Map the indices to visualize spatial clusters and identify outliers (rural counties performing well).  
+- Segment by state/region to separate rurality effects from regional policy/context.  
 
 ## Artifacts
 - **[decision_tree_urbanization_env.png](./artifacts/decision_tree_urbanization_env.png)**  
