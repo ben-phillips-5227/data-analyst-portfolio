@@ -55,23 +55,23 @@ Created three aggregate variables for analysis:
 
 **1) Decision tree — Urbanization & Environment–Lifestyle predictors**  
 _File:_ `artifacts/decision_tree_urbanization_env.png` (and `.svg`)  
-The tree classifies counties as **Less Healthy vs. Healthier** using a small set of interpretable rules. Early splits are driven by **access & environment** (e.g., *PCP_Rate*, *ExerciseAccess*, *FoodEnv*), with **lifestyle factors** (*Smoking*, *Drinking*) refining the decision. **Urban_Code** (metro/suburban/rural) contributes but is **not the sole driver**—counties with **limited access/support** and **riskier lifestyles** are most likely to be classified “Less Healthy,” regardless of urbanicity.  
-**Takeaway:** Structural access (providers, exercise facilities, food environment) + lifestyle risk together explain health disadvantage more than place alone.
+The tree classifies counties as Less Healthy vs. Healthier using a small set of interpretable rules. Early splits are driven by access & environment (e.g., *PCP_Rate*, *ExerciseAccess*, *FoodEnv*), with lifestyle factors (*Smoking*, *Drinking*) refining the decision. Urban_Code (metro/suburban/rural) contributes but is not the sole driver. Counties with limited access/support and riskier lifestyles are most likely to be classified “Less Healthy,” regardless of urbanicity.  
+Takeaway: Structural access (providers, exercise facilities, food environment) + lifestyle risk together explain health disadvantage more than place alone.
 
 **2) Barplot — Health Disadvantage Index (HDI) by RUCC**  
 _File:_ `artifacts/bar_hdi_by_rucc.png`  
-HDI tends to **worsen as counties become more rural** (higher RUCC codes). Error bars indicate **greater variability** among rural codes, suggesting pockets of both resilience and high disadvantage.  
-**Takeaway:** On average, rural counties carry a higher health burden, but outcomes are heterogeneous—targeted, local strategies are warranted.
+HDI tends to worsen as counties become more rural (higher RUCC codes). Error bars indicate*greater variability among rural codes, suggesting pockets of both resilience and high disadvantage.  
+Takeaway: On average, rural counties carry a higher health burden, but outcomes are heterogeneous—targeted, local strategies are warranted.
 
 **3) Barplot — Lifestyle Risk Index by RUCC**  
 _File:_ `artifacts/bar_lifestyle_risk_by_rucc.png`  
-**Lifestyle risk (e.g., obesity/inactivity proxies)** is generally **higher outside metro areas**. This aligns with the decision tree’s use of lifestyle variables to separate “Less Healthy” counties.  
-**Takeaway:** Behavior-linked risks are elevated in non-metro contexts, reinforcing the need for prevention and community programs tailored to rural settings.
+Lifestyle risk (e.g., obesity/inactivity proxies) is generally higher outside metro areas. This aligns with the decision tree’s use of lifestyle variables to separate “Less Healthy” counties.  
+Takeaway: Behavior-linked risks are elevated in non-metro contexts, reinforcing the need for prevention and community programs tailored to rural settings.
 
 **4) Barplot — Access & Support Index by RUCC**  
 _File:_ `artifacts/bar_access_support_by_rucc.png`  
-**Access & support** (provider availability, exercise facility access, food environment) is **lowest in rural codes** and improves toward metro codes.  
-**Takeaway:** **Access constraints** are a consistent differentiator—closing gaps in providers and healthy-environment supports is likely to yield the biggest improvements.
+Access & support (provider availability, exercise facility access, food environment) is lowest in rural codes and improves toward metro codes.  
+Takeaway: Access constraints are a consistent differentiator—closing gaps in providers and healthy-environment supports is likely to yield the biggest improvements.
 
 
 ## Overall Interpretation
