@@ -54,9 +54,15 @@ Created three aggregate variables for analysis:
    
 
 
-## Visualizations
-
-
+## Artifacts
+- **[decision_tree_urbanization_env.png](./artifacts/decision_tree_urbanization_env.png)**  
+  Final decision tree using urbanization and environment/lifestyle predictors. Shows the splits/thresholds the model used to classify counties as “Less Healthy” vs “Healthier.”
+- **[bar_hdi_by_rucc.png](./artifacts/bar_hdi_by_rucc.png)**  
+  Mean **Health Disadvantage Index (HDI)** by RUCC code with SD error bars.
+- **[bar_lifestyle_risk_by_rucc.png](./artifacts/bar_lifestyle_risk_by_rucc.png)**  
+  Mean **Lifestyle Risk Index** by RUCC code with SD error bars.
+- **[bar_access_support_by_rucc.png](./artifacts/bar_access_support_by_rucc.png)**  
+  Mean **Access & Support Index** by RUCC code with SD error bars.
 
 ## License & attribution
 - County Health Rankings © University of Wisconsin Population Health Institute.
