@@ -50,7 +50,6 @@ Created three aggregate variables for analysis:
         - % With Access to Exercise Opportunities
         - Food Environment Index
         - Mental Health Provider Rate
-We found that 
 
 ## Artifacts
 - **[decision_tree_urbanization_env.png](./artifacts/decision_tree_urbanization_env.png)**  
