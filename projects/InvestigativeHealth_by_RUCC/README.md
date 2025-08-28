@@ -54,7 +54,7 @@ Created three aggregate variables for analysis:
 ## Summary of Findings (from the 4 artifacts)
 
 **1) Decision tree — Urbanization & Environment–Lifestyle predictors**  
-_File:_ `artifacts/decision_tree_urbanization_env.png` (and `.svg`)  
+_File:_ `artifacts/decision_tree_urbanization_env.png`
 The tree classifies counties as Less Healthy vs. Healthier using a small set of interpretable rules. Early splits are driven by access & environment (e.g., *PCP_Rate*, *ExerciseAccess*, *FoodEnv*), with lifestyle factors (*Smoking*, *Drinking*) refining the decision. Urban_Code (metro/suburban/rural) contributes but is not the sole driver. Counties with limited access/support and riskier lifestyles are most likely to be classified “Less Healthy,” regardless of urbanicity.  
 Takeaway: Structural access (providers, exercise facilities, food environment) + lifestyle risk together explain health disadvantage more than place alone.
 
