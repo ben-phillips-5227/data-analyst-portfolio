@@ -11,11 +11,13 @@ Predict passenger survival with a clean, leakage-safe **scikit-learn Pipeline** 
 - **Highlights:** Stratified split, optional hyperparameter & threshold tuning, feature importances, artifacts
 - **Folder:** `projects/Titanic_RandomForest/`
   
-- **Airline Delays Analysis**  
+**Airline Delays Analysis**  
   *KMeans, Hierarchical Clustering, Scikit-learn, Matplotlib*
 
-- **Investigative Health Research** 
-  *Exploratory Data Analysis, Decision Tree, Random Forest, Data Transformation*
+**Investigative Health Research** 
+Merged **County Health Rankings (2023)** with **USDA RUCC (2023)** on FIPS; built composite indices (Health Disadvantage, Lifestyle Risk, Access & Support) and a simple **decision tree** to classify county health status. Barplots summarize index patterns by rural/urban codes; artifacts include the tree (PNG/SVG) and per-metric charts.  
+- **Highlights:** run-anywhere notebook (local or raw GitHub files), clear joins, interpretable rules, focus on actionable drivers (access/support & behavior), artifact export + manifest.  
+- **Folder:** `projects/InvestigativeHealth_by_RUCC/`
 
 ## Resume
 You can find my resume [here](./resume.pdf).
