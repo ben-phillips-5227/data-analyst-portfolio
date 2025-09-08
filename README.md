@@ -12,14 +12,14 @@ Predict passenger survival with a clean, leakage-safe scikit-learn Pipeline (imp
 **Folder:** `projects/Titanic_RandomForest/`
 
 ### 2) Airline Clustering — Flight Delay Patterns
-Unsupervised segmentation of flights using standardized numeric features (e.g., departure/arrival delay, taxi-in/out, NAS/system delays). Compared cluster quality with **Silhouette**, **Calinski–Harabasz**, and **Davies–Bouldin**; profiled clusters to label operational patterns (e.g., “On-time & Efficient,” “Ground-constrained,” “System-delay heavy”).  
-**Highlights:** preprocessing + scaling, k-selection trade-offs, PCA visualization, cluster profiles & assignments exported as artifacts.  
+Unsupervised segmentation of flights using standardized numeric features (e.g., departure/arrival delay, taxi-in/out, NAS/system delays). Compared cluster quality with **Calinski–Harabasz**, and **Davies–Bouldin**; profiled clusters to label operational patterns (e.g., “On-time & Efficient,” “Ground-constrained,” “System-delay heavy”).  
+**Highlights:** preprocessing + scaling, k-selection trade-offs, PCA visualization, cluster profiles & assignments exported as artifacts
 **Folder:** `projects/Airline_Clustering/`
 
 ### 3) Investigative Health — County Health Rankings × RUCC
 Merged **County Health Rankings (2023)** with **USDA RUCC (2023)** on FIPS; built composite indices (Health Disadvantage, Lifestyle Risk, Access & Support) and a simple **decision tree** to classify county health status. Barplots summarize index patterns by rural/urban codes; artifacts include the tree (PNG/SVG) and per-metric charts.  
-**Highlights:** run-anywhere notebook (local or raw GitHub files), clear joins, interpretable rules, focus on **actionable drivers** (access/support & behavior), artifact export + manifest.  
-**Folder:** `projects/InvestigativeHealthRUCC/`
+**Highlights:** run-anywhere notebook (local or raw GitHub files), clear joins, interpretable rules, focus on actionable drivers (access/support & behavior), artifact export + manifest
+**Folder:** `projects/InvestigativeHealth_by_RUCC/`
 
 ## Resume
 You can find my resume [here](./resume.pdf).
