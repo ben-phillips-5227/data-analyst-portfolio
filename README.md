@@ -17,6 +17,7 @@ Unsupervised segmentation of flights using standardized numeric features (e.g., 
 - **Folder:** `projects/Airline_Clustering/`
 
 **Investigative Health Research** 
+
 Merged **County Health Rankings (2023)** with **USDA RUCC (2023)** on FIPS; built composite indices (Health Disadvantage, Lifestyle Risk, Access & Support) and a simple **decision tree** to classify county health status. Barplots summarize index patterns by rural/urban codes; artifacts include the tree (PNG/SVG) and per-metric charts.  
 - **Highlights:** run-anywhere notebook (local or raw GitHub files), clear joins, interpretable rules, focus on actionable drivers (access/support & behavior), artifact export + manifest  
 - **Folder:** `projects/InvestigativeHealth_by_RUCC/`
